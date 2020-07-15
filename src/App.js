@@ -1,7 +1,12 @@
 import React from "react";
+import Tescom from "./components/Tescom";
 
 function App() {
-  return <div className="bg-red-600">Hello</div>;
+  return (
+    <div>
+      <Tescom />
+    </div>
+  );
 }
 
 export default App;
